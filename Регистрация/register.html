@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          <div class="header">
+            <img src="images/Group 1.png" alt="Логотип" height="60px"/>
+            <div class="header-right">
+              <a href="#">Акции</a></li>
+              <a href="Страница точки проката/rentplace.html">Точки проката</a>
+             <a href="Страница бронирования/booking.html">Бронирования</a>
+              <a href="Личный кабинет/profile.html">Личный кабинет</a>
+              <a href="Регистрация/register.html">Регистрация</a>
+            </div>
+          </div>
+          </header>
+                    <div class="form-bloc">
+                    <form id="registrationForm" onsubmit="return validateForm(event)">
+                    <h1>Зарегистрироваться</h1>
+                    <div class="pole">
+                    <label for="firstName">Имя*:</label><br>
+                    <input type="text" id="firstName" name="firstName" placeholder="Алиса" required><br>
+                    <p id="firstNameError"></p><br>
+                   </div>
+                   <div class="pole">
+                  <label for="lastName">Фамилия*:</label><br>
+                  <input type="text" id="lastName" name="lastName" placeholder="Ивановика" required><br>
+                  <p id="lastNameError"></p><br>
+                    </div>
+                    <div class="pole">
+                  <label for="middleName">Отчество:</label><br>
+                  <input type="text" id="middleName" name="middleName" placeholder="Олеговна" required><br>
+                  <p id="middleNameError"></p><br>
+                   </div>
+                   <div class="pole">
+                    <label for="pas">Паспортные данные*:</label><br>
+                    <input type="text" id="pas" name="pas" placeholder="Серия и номер" required><br>
+                    <p id="pasError"></p><br>
+                     </div>
+                   <div class="pole">
+                  <label for="phone">Номер телефона*:</label><br>
+                  <input type="text" id="phone" name="phone" placeholder="8 (909)-333-44-62" required><br>
+                  <p id="phoneError"></p><br>
+                   </div>
+                   <div class="pole">
+                      <label for="dateInput">Дата рождения*:</label><br>
+                      <input type="date" id="dateInput" name="dateInput" placeholder="Дата рождения" required><br>
+                      <br>
+                </div>
+                   <div class="pole">
+                  <label for="email">Email*:</label><br>
+                  <input type="email" id="email" name="email" placeholder="Алиса@mail.ru" required><br>
+                  <p id="emailError"></p><br>
+                    </div>
+                    <div class="pole">
+                  <label for="password">Пароль*:</label><br>
+                  <input type="password" id="password" name="password" minlength="8" required><br>
+                  <p id="passwordError"></p><br>
+                    </div>
+                    <div class="pole">
+                  <label for="confirmPassword">Повторите пароль*:</label><br>
+                  <input type="password" id="confirmPassword" name="confirmPassword"  minlength="8" required><br>
+                  <p id="confirmPasswordError"></p><br>
+                    </div>
+                      
+                      <button type="submit">Отправить</button>
+                    </form>
+                  </div>
+
+       
+   
+        
+   <footer>
+    <div class="bloc-foot">
+      <div class="foto">
+        <img src="images/Group 1.png" alt="Логотип" height="70px"/>
+      </div>
+        <div class="menu">
+           <p>Меню</p>
+          <p>Акции</p>
+          <p>Бронирования</p>
+          <p>Личный кабинет</p>
+          <p> Ссылка на пользовательское соглашение</p>
+          <p>Ссылка на политику конфиденциальности</p>
+          </div>
+      <div>
+        <div class="nomer">
+          <p>Телефон:  8 (800) 111-11-11</p>
+        </div>
+        <div class="ikonki">
+          <p>Социальные сети</p>
+          <img src="images/telegram 1.png" alt="Иконки">
+          <img src="images/vkontakte 1.png" alt="Иконки">
+          <img src="images/whatsapp 1.png" alt="Иконки">
+        </div>
+      </div>
+    </div>
+           
+          <div class="vodn">
+          <p>©️ Квадрокоптер+ 2023-2024</p>
+        </div>
+   </footer>
+
+        <script src="java.js"></script>
+    </body>
+</html>

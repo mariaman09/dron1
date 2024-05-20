@@ -1,0 +1,305 @@
+body{
+  font-family: 'Lato', Verdana;
+  font-size: 100%;
+  background: #eee9e9;
+}
+@media(max-width: 1920px){
+  
+  .header {
+    overflow: hidden;
+    background-color: rgb(199, 151, 247);
+    color: #ffffff;
+    padding: 20px 10px;
+  }
+  
+  /* Стиль ссылок шапки */
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Стиль ссылки логотипа */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Изменение цвета фона при наведении курсора */
+  .header a:hover {
+    background-color: #dda2ff;
+    color: black;
+  }
+  
+  /* Стиль активной/текущей ссылки */
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  /* Сдвигаем секцию со ссылками вправо */
+  .header-right {
+    float: right;
+  }
+  
+  /* Медиа-запрос для адаптивности – когда ширина
+    экрана 650px или меньше, ссылки будут друг над другом */
+  @media screen and (max-width: 650px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+h1{
+  color: rgb(177, 99, 255);
+  text-align: center;
+}
+
+}
+.menu{
+  color: #ffeaea;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto {
+  margin-top: 20px; /* Расстояние между текстом и изображением */
+}
+.vodn{
+  color: #ffeaea;
+  margin-left: 8px;
+  float: none;
+    display: block;
+    text-align: left;
+}
+.ikonki{
+  color: #ffeaea;
+  float: none;
+    display: block;
+    text-align: left;
+}
+footer {
+  background-color: rgb(199, 151, 247);
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  flex-direction: column
+  }
+  
+  .foto {
+  margin-top: 20px;
+  }
+  
+  .vodn {
+  color: #ffeaea;
+  margin-left: 8px;
+  }
+  
+  .ikonki {
+    margin-left: 5px;
+  color: #ffeaea;
+  flex-direction: column;
+  float: none;
+
+  flex-direction: column;
+  align-items: center;
+  }
+  .ikonki img{
+    width: 40px;
+    margin: 3px;
+  }
+  
+  .nomer {
+  color: #ffeaea;
+  float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+.nomer{
+  color: #ffeaea;
+}
+
+ 
+ @media(max-width: 768px){
+  .nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  
+  }
+  
+  .nav ul {
+  list-style-type: none;
+  padding: 80;
+  margin: 70;
+  display: flex;
+  
+  }
+  
+  .nav li {
+  margin: 0 30px;
+  margin-top: 8px;
+  
+  }
+  
+  .container {
+  background-color: rgb(219, 185, 252);
+  align-items: center;
+  height: 70px;
+  margin-top: -65px;
+  }
+  
+  .slider {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  border: solid 1px;
+  margin-left: 0;
+  }
+  
+  .news-block {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  }
+  
+  .news-item h3 {
+  color: rgb(146, 42, 250);
+  }
+  
+  .news-item p {
+  color: #666;
+  }
+  
+  .kvad {
+  text-align: center;
+  }
+  
+  .gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .dropbtn {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  margin-top: -70px;
+  }
+  
+  h1 {
+  text-align: center;
+  }
+  
+  
+  .read-more-btn {
+  background-color: rgb(146, 42, 250);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 20px;
+  }
+  
+  .menu {
+  color: #ffeaea;
+  margin-left: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+  .content {
+  display: flex;
+  flex-direction: column;
+  }
+  footer {
+  background-color: rgb(199, 151, 247);
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  flex-direction: column
+  }
+  
+  .foto {
+  margin-top: 20px;
+  }
+  
+  .vodn {
+  color: #ffeaea;
+  margin-left: 8px;
+  }
+  
+  .ikonki {
+    margin-left: 5px;
+  color: #ffeaea;
+  flex-direction: column;
+  float: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .ikonki img{
+    width: 40px;
+    margin: 3px;
+  }
+  
+  .nomer {
+  color: #ffeaea;
+  float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  }
+  }
+  .mapid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота экрана полностью */
+  }
+  #map {
+    width: 80%; /* Ширина карты */
+    height: 80%; /* Высота карты */
+  }
+
+.bloc-foot{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+

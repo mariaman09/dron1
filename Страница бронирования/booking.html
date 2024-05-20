@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Страница бронирования</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+          <div class="header">
+            <img src="images/Group 1.png" alt="Логотип" height="60px"/><a href="html.html"></a>
+            <div class="header-right">
+              <a href="#">Акции</a></li>
+              <a href="Страница точки проката/rentplace.html">Точки проката</a>
+             <a href="Страница бронирования/booking.html">Бронирования</a>
+              <a href="Личный кабинет/profile.html">Личный кабинет</a>
+              <a href="Регистрация/register.html">Регистрация</a>
+            </div>
+          </div>
+          </header>
+          <h1>Бронирование квадрокоптеров</h1>
+
+<div id="bookingForm">
+  <h2>Данные о квадрокоптере</h2>
+  <label for="droneId">Идентификатор квадрокоптера:</label>
+  <input type="text" id="droneId" required>
+
+  <label for="droneBrand">Марка квадрокоптера:</label>
+  <input type="text" id="droneBrand" required>
+
+  <label for="droneName">Название квадрокоптера:</label>
+  <input type="text" id="droneName" required>
+
+  <label for="bookingDateTime">Дата и время бронирования:</label>
+  <input type="datetime-local" id="bookingDateTime" required>
+
+  <label for="returnDateTime">Дата и время возврата:</label>
+  <input type="datetime-local" id="returnDateTime" required>
+
+  <label for="rentalPoint">Точка проката:</label>
+  <input type="text" id="rentalPoint" required>
+
+  <h2>Данные о клиенте</h2>
+  <label for="firstName">Имя:</label>
+  <input type="text" id="firstName" required>
+
+  <label for="lastName">Фамилия:</label>
+  <input type="text" id="lastName" required>
+
+  <label for="middleName">Отчество:</label>
+  <input type="text" id="middleName" required>
+
+  <label for="phone">Номер телефона:</label>
+  <input type="tel" id="phone">
+
+  <label for="passport">Паспортные данные:</label>
+  <input type="text" id="passport">
+
+  <label for="creditCard">Банковская карта (последние 4 цифры):</label>
+  <input type="text" id="creditCard">
+
+  <h2>Выбор квадрокоптера</h2>
+  <!-- Добавьте элементы для выбора квадрокоптера -->
+
+  <h2>Выбор банковской карты</h2>
+  <!-- Добавьте элементы для выбора банковской карты -->
+
+  <button id="bookBtn">Забронировать</button>
+
+  <p>Финальная стоимость: <span id="finalPrice"></span></p>
+</div>
+
+       
+   <footer>
+    <div class="bloc-foot">
+      <div class="foto">
+        <img src="images/Group 1.png" alt="Логотип" height="70px"/>
+      </div>
+        <div class="menu">
+           <p>Меню</p>
+          <p>Акции</p>
+          <p>Бронирования</p>
+          <p>Личный кабинет</p>
+          <p> Ссылка на пользовательское соглашение</p>
+          <p>Ссылка на политику конфиденциальности</p>
+          </div>
+      <div>
+        <div class="nomer">
+          <p>Телефон:  8 (800) 111-11-11</p>
+        </div>
+        <div class="ikonki">
+          <p>Социальные сети</p>
+          <img src="images/telegram 1.png" alt="Иконки">
+          <img src="images/vkontakte 1.png" alt="Иконки">
+          <img src="images/whatsapp 1.png" alt="Иконки">
+        </div>
+      </div>
+    </div>
+           
+          <div class="vodn">
+          <p>©️ Квадрокоптер+ 2023-2024</p>
+        </div>
+   </footer>
+
+        <script src="java.js"></script>
+    </body>
+</html>
