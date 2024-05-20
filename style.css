@@ -50,7 +50,7 @@ body {
 
 /* Медиа-запрос для адаптивности – когда ширина
   экрана 650px или меньше, ссылки будут друг над другом */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .header a {
     float: none;
     display: block;
@@ -270,7 +270,7 @@ footer{
 }
 
  }
- @media(max-width: 768px){
+ @media(max-width: 798px){
   .nav {
   display: flex;
   justify-content: center;
@@ -300,14 +300,39 @@ footer{
   }
   
   .slider {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
+  width: 600px;
+  height: 450px;
+  
   border-radius: 15px;
   border: solid 1px;
-  margin-left: 0;
-  }
+  margin-left: 590px;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size: cover;
+  
+}
+.indicator {
+  text-align: center;
+  margin-left: -82px;
+  margin-top: 10px;
+ 
+}
+.point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(240, 236, 236);
+  margin: 0 2px;
+  cursor: pointer;
+  border: solid 1px;
+}
+.point.active {
+  background-color: rgb(83, 111, 255); /* Цвет активного маркера */
+}
   
   .news-block {
   background-color: #f9f9f9;
@@ -382,7 +407,15 @@ footer{
   margin-top: 30px;
   flex-direction: column
   }
-  .slide {
+  .slider {
+  width: 600px;
+  height: 450px;
+  
+  border-radius: 15px;
+  border: solid 1px;
+  margin-left: 590px;
+}
+.slide {
   width: 100%;
   height: 100%;
   display: none;
