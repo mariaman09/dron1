@@ -382,7 +382,32 @@ footer{
   margin-top: 30px;
   flex-direction: column
   }
+  .slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-size: cover;
   
+}
+.indicator {
+  text-align: center;
+  margin-left: -82px;
+  margin-top: 10px;
+ 
+}
+.point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(240, 236, 236);
+  margin: 0 2px;
+  cursor: pointer;
+  border: solid 1px;
+}
+.point.active {
+  background-color: rgb(83, 111, 255); /* Цвет активного маркера */
+}
   .foto {
   margin-top: 20px;
   }
